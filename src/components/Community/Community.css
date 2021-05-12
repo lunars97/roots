@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+SC:wght@500&display=swap");
+.community_container {
+    display: flex;
+    width: 100%;
+    background-color: #fcf3eb;
+}
+.community_info {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 62px;
+}
+.header_community {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 150px;
+    font-style: normal;
+    font-weight: 500;
+    color: #222222;
+    font-size: 50px;
+}
+.p_community {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 120px;
+    font-size: 30px;
+}
+.span_community {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 120px;
+    font-size: 28px;
+}
+.box-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #fcf3eb;
+}
+.comment-box {
+    display: flex;
+    flex-flow: column;
+}
+.main_info-community {
+    font-family: "Montserrat", sans-serif;
+    margin-top: -200px;
+}
+.name-comment {
+    margin-top: 20px;
+    width: 280px;
+    height: 30px;
+    outline: none;
+}
+.comment-text {
+    margin-top: 20px;
+    width: 650px;
+    height: 100px;
+    resize: none;
+    font-size: 16px;
+    outline: none;
+}
+.main_comment-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    margin-top: -220px;
+
+    background-color: #fcf3eb;
+}
+.comment-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.inner_comment-list {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+.email_comment {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(97, 95, 95);
+    line-height: 30px;
+}
+.name_comment {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0);
+    /* line-height: 30px; */
+}
+#name-inp {
+    color: black;
+}
+.comment_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#trash {
+    width: 40px;
+    height: 20px;
+    margin-left: 30px;
+    border-style: none;
+    margin-top: 20px;
+}
+#list_comment {
+    margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .community_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #fcf3eb;
+    }
+    .community_img {
+        width: 100%;
+    }
+    .community_info {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 50px;
+    }
+    .header_community {
+        font-family: "Montserrat", sans-serif;
+        margin-left: 30px;
+        font-style: normal;
+        font-weight: 500;
+        color: #222222;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .p_community {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    .span_community {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        margin-left: 30px;
+        font-size: 28px;
+    }
+    .comment-box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        flex-flow: column;
+    }
+    .main_info-community {
+        font-family: "Montserrat", sans-serif;
+        margin-top: -200px;
+    }
+    .comment-text {
+        margin-top: 20px;
+        width: 500px;
+        height: 100px;
+        resize: none;
+        font-size: 16px;
+        outline: none;
+    }
+}

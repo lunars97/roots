@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+SC:wght@500&display=swap");
+.products_page {
+    background-color: #fcf3eb;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.main_slider {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    margin-top: 50px;
+    width: 80%;
+    margin: 0px 20px;
+}
+.category_wrapper {
+    font-family: "Noto Sans SC", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.select_product {
+    margin-left: 10px;
+    width: 180px;
+    height: 30px;
+    font-family: "Noto Sans SC", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    border-style: none;
+    background-color: #fdebdd;
+}
+.product_container > h2 {
+    font-family: "Noto Sans SC", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    width: 100%;
+}
+
+.pagination {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.pageBtn {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: indianred;
+    cursor: pointer;
+}
+.slick-arrow {
+    color: rgb(199, 116, 116) !important;
+}

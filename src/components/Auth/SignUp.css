@@ -1,0 +1,35 @@
+.main__signup-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.signup-container {
+    width: 500px;
+}
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auth-inp {
+    margin-top: 15px;
+    width: 400px;
+    height: 40px;
+    outline: none;
+}
+.auth-btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+}
+#auth-text {
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+#account-text {
+    text-align: center;
+    margin-top: 40px;
+}

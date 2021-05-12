@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+SC:wght@500&display=swap");
+.cart {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cart_inner {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 80vh;
+    width: 80%;
+    margin-top: 40px;
+    background-color: rgb(241, 182, 104);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.cart_inner_box {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-bottom: 30px;
+}
+.cart-img {
+    width: 300px;
+    height: 250px;
+}
+.cart_wrap {
+    margin-bottom: 50px;
+}
+.cart-btn {
+    margin-top: 20px;
+    width: 80px;
+    height: 25px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+.product-cart_wrap {
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+.product-cart_wrap > span {
+    margin-bottom: 30px;
+}

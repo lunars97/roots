@@ -1,0 +1,55 @@
+.admin-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.main_admin-div {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.admin_input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.admin-btn {
+    margin-top: 15px;
+    width: 130px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+}
+.admin_list_wrap {
+    width: 100%;
+    margin-top: 15px;
+}
+.admin_cards__items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.admin_img {
+    width: 150px;
+    height: 150px;
+}
+.admin_list {
+    display: flex;
+
+    flex-flow: column;
+    align-items: center;
+    background-color: rgb(219, 133, 72);
+    border-radius: 10px;
+    color: black;
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}

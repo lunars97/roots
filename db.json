@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "img": "https://images.unsplash.com/photo-1557687790-902ede7ab58c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=343&q=80",
+      "title": "Wooden flatware",
+      "price": "5",
+      "description": "Eco friendly wooden Spoon and Folk -Unique Hand carved wood gift set- Handmade, hand carved spoon and folk, organic kitchen utensils",
+      "category": "kitchen",
+      "id": 1
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1589365252845-092198ba5334?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80",
+      "title": "Bamboo toothbrush",
+      "price": "13.55",
+      "description": "These Toothbrushes are made from naturally grown Bamboo and Castor oil based bristles ( plant based) This is the most environmentally friendly toothbrush that lasts for around 3 months.  It has soft bristles, as recommended by dental professionals, because too much pressure or overzealous brushing can negatively impact the enamel and gums.  Each toothbrush is individually wrapped in cardboard paper box, this is to protect bristles from damaging.",
+      "category": "self-care",
+      "id": 2
+    },
+    {
+      "img": "https://i.etsystatic.com/24318935/r/il/97d0da/2485763498/il_794xN.2485763498_vdxv.jpg",
+      "title": "Glass container",
+      "price": "25",
+      "description": "Professional supplier for private label diy packaging we are, many years experience in this product line. If you need any new offer or price list, contact us freely. Our team will send you the quotation.  This natural bamboo wooden roller bottles will be a nice choice for your essential oil products.   ---Capacity: 15g / 30g / 50g ---Surface: Frosted ---Material: Bamboo Wooden Look Cap+ Frosted Glass --- Quantity: you can choose the quantity from the drop textbox ( from 1 piece / 3 pieces / 5 pieces / 10 pieces / 20 pieces / 30 pieces / 50 pieces / 100 pieces / 200 pieces )",
+      "category": "kitchen",
+      "id": 3
+    },
+    {
+      "img": "https://i.etsystatic.com/16185595/r/il/984b40/2154968270/il_794xN.2154968270_g9c5.jpg",
+      "title": "Organic Cotton Mesh Bags",
+      "price": "10",
+      "description": "Premium cotton mesh, quality guaranteed!   *Go completely PLASTIC-FREE & save the ENVIRONMENT!  *FOLDABLE, WASHABLE, PORTABLE *Discover convenience with your eco friendly grocery bags  Organize your Awesome Avocados, Perfect Peaches & Tangy Tangerines!  *BREATHE EASY * Rest assured your FRUIT, VEGETABLE & GARDEN produce will be SAFE in your MESH bags",
+      "category": "kitchen",
+      "id": 4
+    },
+    {
+      "img": "https://i.etsystatic.com/20857969/r/il/d9b984/2365089009/il_794xN.2365089009_pi2b.jpg",
+      "title": "Reusable Organic Cotton Mesh Bag-Zero Waste Shopping",
+      "price": "7.99",
+      "description": "These bags are a perfect substitute to plastic bags as they are made from organic cotton. The net design allows the the content to breath, which makes it ideal for vegetables and fruits. However no one is stopping you to use this bag for any other occasion, our stylish colors and a trendy design will make your eco friendly lifestyle even brighter!  ITS A HUGE AMOUNT:  Because of the mesh design, the bag can expand really quite big. You can fit so much in there. these bags can hold up to 7 KG",
+      "category": "kitchen",
+      "id": 5
+    },
+    {
+      "img": "https://i.etsystatic.com/28914194/r/il/9af639/3072786789/il_794xN.3072786789_ok3i.jpg",
+      "title": "Eco-friendly Mask: Pink Broderie Anglaise",
+      "price": "11.50",
+      "description": "Designed to be reusable, upcycled from preloved designer clothes, and handmade with care: introducing our 100% eco-friendly masks.  As masks are upcycled from preloved clothes, each designer fabric is limited edition and will not be restocked when sold out.  Note that the fabric swatches are for your reference and the actual product alignment will be subjected to the fabric run. The best alignment will be chosen for your order so every piece will be unique!  - Made with natural fibers (cotton/linen) to ensure breathability - Measures 13 x 12cm, with 69 cm tie-back strap - Structured design to fit the natural contours of your face for added comfort - Adjustable self-tie strap to allow personalised fit - Lined and reveals side opening for removable filter (not included with purchase) - Non-medical and non-surgical grade",
+      "category": "accessories",
+      "id": 6
+    },
+    {
+      "img": "https://i.etsystatic.com/14655196/r/il/bf3076/3119912079/il_794xN.3119912079_9hgm.jpg",
+      "title": "Eco-friendly Natural Reusable Jute Washcloth",
+      "price": "5",
+      "description": "Reusable eco-friendly jute washcloth for shower and bath. It is tough enough to deal with any skin contamination, and at the same time, it is gentle enough not to cause skin irritation. The washcloth has a strap that fits comfortably on the hand. Jute washcloth is a great tool for massage and pilling. Jute has antibacterial properties. This washcloth is safe for use at home. If necessary, it can be easily washed and disinfected. Withstands high temperatures. Durable. It lasts from 3-4 months to several years.",
+      "category": "self-care",
+      "id": 7
+    },
+    {
+      "img": "https://i.etsystatic.com/22897283/r/il/e63173/2423296406/il_794xN.2423296406_8u8z.jpg",
+      "title": "Scrunchie Summer Collection",
+      "price": "3.45",
+      "description": "Ethically sourced handmade fabric scrunchies. All crafted with love!",
+      "category": "accessories",
+      "id": 8
+    },
+    {
+      "img": "https://i.etsystatic.com/12131724/r/il/742166/2191561906/il_794xN.2191561906_3ldf.jpg",
+      "title": "Sustainable Laptop Sleeve",
+      "price": "50",
+      "description": "We believe that there is a place where your laptop or tablet can feel “at home” - and this is between our Environment-friendly OEKO-TEX® and FSC® certified materials in complete harmony with you and the Environment. Simple and functional design allows it to better perform its main function, namely to keep your laptop from scratches.",
+      "category": "accessories",
+      "id": 9
+    },
+    {
+      "img": "https://i.etsystatic.com/19895481/r/il/40d8e6/2900403788/il_794xN.2900403788_gybg.jpg",
+      "title": "Hemp, Organic, Eco Friendly Short Sleeve V Neck Top, Sizes from M- XL",
+      "price": "40",
+      "description": "Fabric: 55% hemp / 45% organic cotton jersey  -Fit Type: Top Relaxed  -This top is shown in Sunstone, but is available in many different colors!  -The colors available are:  Citrine -shown in the second picture Moss -shown in the third picture Silt -shown in the fourth picture",
+      "category": "clothes",
+      "id": 10
+    },
+    {
+      "img": "https://i.etsystatic.com/29219493/r/il/0afa64/3070316592/il_794xN.3070316592_nxas.jpg",
+      "title": "Boys linen shirt Baby boy linen top Long sleeve shirt Neutral gender",
+      "price": "38",
+      "description": "Boys long sleeve linen shirt (size 3 months to 5 years)  Boys shirt is made in soft and pre washed linen fabric. Shirt has one button fastening on back. shirt will be perfect for spring and summer seasons. Great for everyday wear or some special occasion.  More colors available.  Machine wash, wash Cold (65 and 85F) Tumble dry, low heat  ! Please note that all items are made to order and processing takes about 3-5 business days. We are shipping from Europe.",
+      "category": "clothes",
+      "id": 11
+    }
+  ],
+  "comments": [
+    {
+      "name": "Alekbarova Aizhan",
+      "email": "aleks1996@mail.ru",
+      "comment": "Hellllooooo",
+      "id": 1
+    },
+    {
+      "name": "Mike",
+      "email": "mikeyyy@mail.ru",
+      "comment": "boiiii",
+      "id": 2
+    }
+  ]
+}
