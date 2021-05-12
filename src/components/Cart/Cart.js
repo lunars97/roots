@@ -56,13 +56,13 @@ const Cart = () => {
                                     </div>
                                 </div>
                             ))}
+                            <h4 className="total">
+                                Total: {calcTotalPrice(cart.products)}&#36;
+                            </h4>
+                            <Link to="/payment">
+                                <button className="cart-btn">Purchase</button>
+                            </Link>
                         </div>
-                        <h4 className="total">
-                            Total: {calcTotalPrice(cart.products)}&#36;
-                        </h4>
-                        <Link to="/payment">
-                            <button className="cart-btn">Purchase</button>
-                        </Link>
                     </div>
                 ) : (
                     <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>

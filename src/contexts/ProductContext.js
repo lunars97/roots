@@ -101,8 +101,9 @@ const ProductContextProvider = ({ children }) => {
             payload: data,
         });
     }
-    async function deleteProduct(id) {
+    async function deleteProduct(id, history) {
         await axios.delete(`http://localhost:8000/products/${id}`);
+        getProducts(history);
     }
     async function getProductEdit(id) {
         let { data } = await axios.get(`http://localhost:8000/products/${id}`);
@@ -206,6 +207,7 @@ const ProductContextProvider = ({ children }) => {
 
     async function deleteComment(id) {
         await axios.delete(`http://localhost:8000/comments/${id}`);
+        leaveComment();
     }
 
     function addFavouriteToStorage(product) {

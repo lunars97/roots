@@ -1,14 +1,6 @@
 {
   "products": [
     {
-      "img": "https://images.unsplash.com/photo-1557687790-902ede7ab58c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=343&q=80",
-      "title": "Wooden flatware",
-      "price": "5",
-      "description": "Eco friendly wooden Spoon and Folk -Unique Hand carved wood gift set- Handmade, hand carved spoon and folk, organic kitchen utensils",
-      "category": "kitchen",
-      "id": 1
-    },
-    {
       "img": "https://images.unsplash.com/photo-1589365252845-092198ba5334?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80",
       "title": "Bamboo toothbrush",
       "price": "13.55",
@@ -89,18 +81,5 @@
       "id": 11
     }
   ],
-  "comments": [
-    {
-      "name": "Alekbarova Aizhan",
-      "email": "aleks1996@mail.ru",
-      "comment": "Hellllooooo",
-      "id": 1
-    },
-    {
-      "name": "Mike",
-      "email": "mikeyyy@mail.ru",
-      "comment": "boiiii",
-      "id": 2
-    }
-  ]
+  "comments": []
 }

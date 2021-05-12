@@ -1,11 +1,14 @@
 import React, { useContext, useState, useEffect } from "react";
 import { useHistory, Link } from "react-router-dom";
 import { productContext } from "../../contexts/ProductContext";
+import Footer from "../Footer/Footer";
 import "../AdminPage/AdminPage.css";
 import "../EditProduct/EditProduct";
 const AdminPage = (props) => {
     const history = useHistory();
     const {
+        allPages,
+        setPage,
         getProducts,
         productsData,
         deleteProduct,
@@ -37,10 +40,15 @@ const AdminPage = (props) => {
         setDescription("");
         setCategory("");
     }
+    const arr = [];
+    for (let i = 1; i <= allPages; i++) {
+        arr.push(i);
+    }
     useEffect(() => {
         getProducts(history);
         getProductDetails(props.match.params.id);
     }, [props.match.params.id]);
+
     return (
         <>
             <div className="admin-panel">
@@ -119,7 +127,9 @@ const AdminPage = (props) => {
                                 </p>
                                 <button
                                     className="admin_btn"
-                                    onClick={() => deleteProduct(item.id)}
+                                    onClick={() => {
+                                        deleteProduct(item.id, history);
+                                    }}
                                 >
                                     Delete
                                 </button>
@@ -131,6 +141,14 @@ const AdminPage = (props) => {
                     ))}
                 </ul>
             </div>
+            <ul className="pagination">
+                {arr.map((page) => (
+                    <li className="pageBtn" onClick={() => setPage(page)}>
+                        {page}
+                    </li>
+                ))}
+            </ul>
+            <Footer />
         </>
     );
 };
