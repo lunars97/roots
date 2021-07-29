@@ -22,7 +22,7 @@ const Login = ({ history }) => {
     );
     const { currentUser } = useContext(AuthContext);
     if (currentUser) {
-        return <Redirect to="/" />;
+        return <Redirect to="/admin" />;
     }
     return (
         <div className="main__signup-container">
@@ -44,10 +44,10 @@ const Login = ({ history }) => {
                     <button type="submit" className="auth-btn">
                         Log in
                     </button>
-                    <span id="account-text">
+                    {/* <span id="account-text">
                         Does not have an account?
                         <Link to="/signup">Sign Up</Link>
-                    </span>
+                    </span> */}
                 </form>
             </div>
         </div>
