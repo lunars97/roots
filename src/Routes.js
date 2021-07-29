@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Login from "./components/Auth/Login";
-import SignUp from "./components/Auth/SignUp";
+// import SignUp from "./components/Auth/SignUp";
 import { AuthProvider } from "./contexts/AuthContext";
 import PrivateRoute from "./PrivateRoute";
 import Navbar from "./components/Navbar/Navbar";
@@ -37,7 +37,7 @@ const Routes = () => {
                         />
                         <Route exact path="/edit/:id" component={EditProduct} />
                         <Route exact path="/login" component={Login} />
-                        <Route exact path="/signup" component={SignUp} />
+                        {/* <Route exact path="/signup" component={SignUp} /> */}
                         <Route exact path="/" component={Home} />
                         <Route exact path="/products" component={Products} />
                         <Route exact path="/cart" component={Cart} />
