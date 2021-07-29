@@ -13,7 +13,7 @@ const Login = ({ history }) => {
                 await app
                     .auth()
                     .signInWithEmailAndPassword(email.value, password.value);
-                history.push("/");
+                history.push("/admin");
             } catch (error) {
                 alert(error);
             }
@@ -27,7 +27,7 @@ const Login = ({ history }) => {
     return (
         <div className="main__signup-container">
             <div className="signup-container">
-                <h2 id="auth-text">Login</h2>
+                <h2 id="auth-text">Log in</h2>
                 <form className="auth-form" onSubmit={handleLogin}>
                     <input
                         className="auth-inp"

@@ -1,11 +1,9 @@
 import React, { useContext, useEffect } from "react";
-import { useHistory } from "react-router";
 import { productContext } from "../../contexts/ProductContext";
-import "../CardDetails/CardDetails.css";
+// import "../CardDetails/CardDetails.css";
 import Footer from "../Footer/Footer";
-
+import style from "../CardDetails/CardDetails.module.css";
 const CardDetails = (props) => {
-    const history = useHistory();
     const { getProductDetails, productDetails } = useContext(productContext);
 
     useEffect(() => {
@@ -13,34 +11,41 @@ const CardDetails = (props) => {
     }, [props.match.params.id]);
     return (
         <>
-            <div className="main_detail">
+            <div>
                 {productDetails ? (
                     <>
-                        <div className="main_detail-container">
-                            <div className="inner_detail-container">
-                                <div className="image_detail">
-                                    <img
-                                        className="image_container"
-                                        src={productDetails.img}
-                                    />
-                                </div>
-                                <section className="section_detail">
-                                    <span className="title_detail">
+                        <div className={style.w_100}>
+                            <div className={style.main}>
+                                <img
+                                    className={style.main_img}
+                                    src={productDetails.img}
+                                    alt={productDetails.title}
+                                />
+
+                                <div className={style.main__descriptions}>
+                                    <h1 className={style.main__desTitle}>
                                         {productDetails.title}
-                                    </span>
-                                    <hr></hr>
-                                    <span className="category_detail">
-                                        {productDetails.category}
-                                    </span>
-                                    <hr></hr>
-                                    <p className="info_detail">
+                                    </h1>
+                                    <p>
+                                        Category:&nbsp;
+                                        <span className={style.main__span}>
+                                            {productDetails.category}
+                                        </span>{" "}
+                                    </p>
+
+                                    <div className={style.main__priceDiv}>
+                                        <h2 className={style.main__price}>
+                                            {" "}
+                                            {productDetails.price} &#36;
+                                        </h2>
+                                    </div>
+                                    <h1 className={style.main__aboutProduct}>
+                                        Description
+                                    </h1>
+                                    <p className={style.main__span}>
                                         {productDetails.description}
                                     </p>
-                                    <hr></hr>
-                                    <span className="price_detail">
-                                        Price: {productDetails.price} &#36;
-                                    </span>
-                                </section>
+                                </div>
                             </div>
                         </div>
                     </>

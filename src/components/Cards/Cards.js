@@ -6,9 +6,8 @@ import Aos from "aos";
 import { productContext } from "../../contexts/ProductContext";
 
 const Cards = ({ history }) => {
-    const { getProducts, productsData, allPages, setPage } = useContext(
-        productContext
-    );
+    const { getProducts, productsData, allPages, setPage } =
+        useContext(productContext);
     const arr = [];
     for (let i = 1; i <= allPages; i++) {
         arr.push(i);
@@ -21,7 +20,7 @@ const Cards = ({ history }) => {
     return (
         <div
             className="cards"
-            data-aos="fade-right"
+            data-aos="float-down"
             data-aos-duration="4000"
             data-aos-delay="800"
         >

@@ -2,13 +2,13 @@ import React, { useState, useEffect, useContext } from "react";
 import { Link, useHistory } from "react-router-dom";
 import "../Navbar/Navbar.css";
 import "../../App.css";
-import app from "../../firebase";
-import cart from "../image/cart.png";
-import user from "../image/user.png";
-import admin from "../image/admin.png";
-import logout from "../image/logout.png";
+// import app from "../../firebase";
+// import cart from "../image/cart.png";
+// import user from "../image/user.png";
+// import admin from "../image/admin.png";
+// import logout from "../image/logout.png";
 
-import favourite from "../image/favorite.png";
+// import favourite from "../image/favorite.png";
 import { productContext } from "../../contexts/ProductContext";
 
 function Navbar() {
@@ -119,7 +119,7 @@ function Navbar() {
                             </Link>
                         </li>
 
-                        <li>
+                        {/* <li>
                             <Link to="/login">
                                 <img
                                     src={user}
@@ -128,15 +128,15 @@ function Navbar() {
                                     alt="user-icon"
                                 />
                             </Link>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                             <img
                                 src={logout}
                                 className="cart_icon"
                                 alt="logout-icon"
                                 onClick={() => app.auth().signOut()}
                             />
-                        </li>
+                        </li> */}
                         <li>
                             <Link to="/favourite">
                                 <i
@@ -150,7 +150,7 @@ function Navbar() {
                                 />
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link to="admin">
                                 <img
                                     src={admin}
@@ -159,26 +159,8 @@ function Navbar() {
                                     alt="admin-icon"
                                 />
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
-                    {/* {button && (
-                        <>
-                            <Link to="/login">
-                                <Button
-                                    buttonStyle="btn--outline"
-                                    onClick={closeMobileMenu}
-                                >
-                                    LOG IN
-                                </Button>
-                            </Link>
-                            <Button
-                                buttonStyle="btn--outline"
-                                onClick={() => app.auth().signOut()}
-                            >
-                                SIGN OUT
-                            </Button>
-                        </>
-                    )} */}
                 </div>
             </nav>
         </>

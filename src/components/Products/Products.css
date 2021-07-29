@@ -7,13 +7,13 @@
 }
 .main_slider {
     width: 100%;
-    margin-top: 30px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .slider {
-    margin-top: 50px;
+    padding-top: 50px;
     width: 80%;
     margin: 0px 20px;
 }
@@ -44,8 +44,8 @@
 }
 
 .pagination {
-    margin-top: 80px;
-    margin-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,4 @@
     font-size: 14px;
     color: indianred;
     cursor: pointer;
-}
-.slick-arrow {
-    color: rgb(199, 116, 116) !important;
 }

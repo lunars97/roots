@@ -14,19 +14,15 @@ function HeroSection() {
     return (
         <>
             <div className="hero-container">
-                <h1>Mindfulness isn’t difficult.</h1>
+                <h1>Mindfullness isn’t difficult.</h1>
                 <span>We just have to remember to do it</span>
                 <div className="hero-btns">
                     <button className="btns">GET STARTED</button>
                 </div>
             </div>
-            <section className="info-section" data-aos="zoom-in-up">
-                <div className="img-block">
-                    <img
-                        style={{ width: "730px", height: "500px" }}
-                        src={root}
-                        alt="eco-product"
-                    />
+            <section className="info-section">
+                <div className="img-block" data-aos="zoom-in-up">
+                    <img className="image_ad" src={root} alt="eco-product" />
                 </div>
                 <div className="info-block">
                     <h2 className="block-header">Plastic-Free</h2>
@@ -39,24 +35,28 @@ function HeroSection() {
                             style={{ textDecoration: "none", color: "#72a233" }}
                             to="/products"
                         >
-                            <strong style={{ fontSize: "18px" }}>
-                                Zero-Waste & Reusable Products{" "}
-                            </strong>
+                            <strong>Zero-Waste & Reusable Products </strong>
                         </Link>
                         for your Home & Kitchen
                     </p>
                 </div>
             </section>
-            <section
-                className="info-section"
-                data-aos="zoom-in-down"
-                // data-aos-offset="200"
-                data-aos-duration="3000"
-                data-aos-easing="ease-in-out"
-            >
+            <section className="info-section">
                 <div className="info-block">
-                    <h2 className="block-header2">1% for the Planet</h2>
-                    <p className="ad-text2">
+                    <h2
+                        data-aos="zoom-in-down"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in"
+                        className="block-header2"
+                    >
+                        1% for the Planet
+                    </h2>
+                    <p
+                        data-aos="zoom-in-down"
+                        data-aos-duration="2000"
+                        data-aos-easing="ease-in"
+                        className="ad-text2"
+                    >
                         A healthy home not only keeps your family sound, it also
                         helps to protect the environment. These eco friendly
                         products — from the best biodegradable trash bags and
@@ -67,11 +67,7 @@ function HeroSection() {
                     </p>
                 </div>
                 <div className="img-block">
-                    <img
-                        style={{ width: "790px", height: "500px" }}
-                        src={nature}
-                        alt="nature"
-                    />
+                    <img className="image_ad" src={nature} alt="nature" />
                 </div>
             </section>
         </>

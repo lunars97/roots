@@ -7,7 +7,7 @@ export function calcTotalPrice(products) {
     products.forEach((item) => {
         totalPrice += item.subPrice;
     });
-    return totalPrice;
+    return totalPrice.toFixed(2);
 }
 export function getCountProductsCart() {
     let cart = JSON.parse(localStorage.getItem("cart"));

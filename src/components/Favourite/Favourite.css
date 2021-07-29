@@ -2,8 +2,8 @@
 .inner_fav_box {
     display: flex;
     justify-content: center;
-    width: 70%;
-    background-color: coral;
+    width: 80%;
+    background-color: rgb(238, 212, 202);
     height: 70vh;
 }
 .favourite {
@@ -26,9 +26,14 @@
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
-    color: #494848;
+    color: #2e2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
+    margin-bottom: 20px;
 }
+
 .tr_tbody_fav {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -39,4 +44,11 @@
 }
 .tbody_fav {
     padding-top: 20px;
+}
+td:nth-child(5) {
+    color: rgb(238, 127, 36);
+    font-weight: 500;
+}
+td {
+    padding: 0 1rem 1rem 1rem;
 }

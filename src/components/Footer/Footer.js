@@ -51,19 +51,19 @@ function Footer() {
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="social-icons">
-                        <Link to="/" target="_blank" aria-label="Youtube">
+                        <a href="https://www.youtube.com/">
                             <img
                                 src={youtube}
                                 className="youtube"
                                 alt="youtube-icon"
                             />
-                        </Link>
-                        <Link to="/" target="_blank">
+                        </a>
+                        <a href="https://www.twitter.com/">
                             <img src={twitter} alt="twitter-icon" />
-                        </Link>
-                        <Link to="/" target="_blank">
+                        </a>
+                        <a href="https://www.instagram.com/">
                             <img src={insta} alt="instagram-icon" />
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <small className="website-rights">

@@ -4,7 +4,8 @@
     margin: 0 auto;
     justify-content: center;
     margin-top: 40px;
-    box-shadow: 3px 5px 4px 3px;
+    /* box-shadow: 3px 5px 4px 3px; */
+    margin-bottom: 30px;
 }
 .form-containers {
     flex-direction: column;

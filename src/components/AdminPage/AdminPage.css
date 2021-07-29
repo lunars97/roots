@@ -37,16 +37,21 @@
     text-decoration: none;
     color: black;
 }
+.admin_cards__items li {
+    margin-right: 20px;
+    height: 300px;
+    overflow: scroll;
+    margin-left: 20px;
+}
 .admin_img {
     width: 150px;
     height: 150px;
 }
 .admin_list {
     display: flex;
-
     flex-flow: column;
     align-items: center;
-    background-color: rgb(219, 133, 72);
+    background-color: rgb(235, 198, 172);
     border-radius: 10px;
     color: black;
     width: 300px;

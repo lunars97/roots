@@ -25,7 +25,11 @@ const Routes = () => {
                 <ProductContextProvider>
                     <Navbar />
                     <Switch>
-                        <PrivateRoute exact path="/" component={Home} />
+                        <PrivateRoute
+                            exact
+                            path="/admin"
+                            component={AdminPage}
+                        />
                         <Route
                             exact
                             path="/details/:id"
@@ -34,7 +38,7 @@ const Routes = () => {
                         <Route exact path="/edit/:id" component={EditProduct} />
                         <Route exact path="/login" component={Login} />
                         <Route exact path="/signup" component={SignUp} />
-                        <Route exact path="/admin" component={AdminPage} />
+                        <Route exact path="/" component={Home} />
                         <Route exact path="/products" component={Products} />
                         <Route exact path="/cart" component={Cart} />
                         <Route exact path="/community" component={Community} />

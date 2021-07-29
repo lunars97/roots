@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+SC:wght@500&display=swap");
+.cart {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cart_main {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+.cart_inner {
+    width: 80%;
+    margin: 0 auto;
+}
+.order_title {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0.7rem 0;
+}
+.card_wrapper {
+    width: 41.125rem;
+    height: 8.875rem;
+    border: 1px solid rgb(192, 192, 192);
+    display: flex;
+    margin: 1rem 0;
+}
+.card_wrapper__image_wrapper {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+.card_wrapper__image_wrapper > img {
+    width: 7.75rem;
+}
+.card_wrapper__right_col {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    line-height: 1.7rem;
+    width: 100%;
+    position: relative;
+}
+.title {
+    font-size: 15px;
+    font-weight: 550;
+    color: #000;
+}
+.remove {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30px;
+}
+.remove > div {
+    font-size: 30px;
+    color: #ff6565;
+    cursor: pointer;
+}
+.greyFont {
+    font-size: 16px;
+    font-weight: 400;
+    color: #535151;
+}
+.bottom_paragraph {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_price {
+    margin-right: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 16px;
+}
+.right_column_card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_column_card__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 20rem;
+    background-color: #b3f5b6;
+}
+.right_column_card__inner__sum {
+    border-bottom: 1px solid rgb(192, 190, 190);
+    width: 80%;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0.7rem 0;
+}
+.right_column_card__inner__prices {
+    padding: 0.8rem 0;
+    font-size: 16px;
+    line-height: 2.7rem;
+    font-weight: 400;
+    width: 80%;
+    border-bottom: 2px dashed rgb(192, 190, 190);
+}
+.left_text {
+    color: #7c7c7c;
+}
+.all_prices {
+    display: flex;
+    justify-content: space-between;
+}
+.cart_btn {
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: burlywood;
+    border: none;
+}
+@media screen and (max-width: 1000px) {
+    .cart_main {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .cart_inner {
+        width: 100%;
+        margin: 0 1rem;
+    }
+    .card_wrapper {
+        width: 28rem;
+        height: 9.8rem;
+        border: 1px solid rgb(192, 192, 192);
+        display: flex;
+    }
+    .order_title {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0.7rem 0;
+    }
+    .title {
+        font-size: 14px;
+        font-weight: 550;
+        color: #000;
+    }
+}
+@media screen and (max-width: 900px) {
+    .cart_main {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .main_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .main_container__inner {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .main_container__inner__header {
+        padding-bottom: 5px;
+    }
+
+    .main_container__inner__header > h4 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .card_wrapper {
+        margin: 1rem 0;
+        width: 100%;
+        height: 12.7rem;
+    }
+    .card_wrapper__image_wrapper {
+        padding: 0.3rem 0 0.3rem 0.3rem;
+    }
+    .card_wrapper__image_wrapper > img {
+        width: 7rem;
+    }
+    .card_wrapper__image_wrapper__right_col {
+        position: relative;
+        line-height: 1.2rem;
+    }
+
+    .card_wrapper__image_wrapper__right_col .title {
+        font-size: 12px;
+    }
+
+    .bottom_price {
+        margin-right: 0.7rem;
+
+        line-height: 16px;
+    }
+    .prevPrice {
+        font-size: 10px;
+    }
+    .currentPrice {
+        font-size: 12px;
+    }
+
+    .right_column_card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .right_column_card__inner__prices {
+        width: 100%;
+    }
+}

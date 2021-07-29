@@ -277,6 +277,22 @@ const ProductContextProvider = ({ children }) => {
         localStorage.setItem("favourite", JSON.stringify(favourite));
         setFavourite();
     }
+    function deleteFromFavourites(id) {
+        let favourites = JSON.parse(localStorage.getItem("favourite"));
+        console.log(favourites);
+        favourites.products = favourites.products.filter(
+            (elem) => elem.item.id !== id
+        );
+        localStorage.setItem("favourite", JSON.stringify(favourites));
+        setFavourite();
+    }
+    function deleteFromCart(id) {
+        let cart = JSON.parse(localStorage.getItem("cart"));
+        console.log(cart);
+        cart.products = cart.products.filter((elem) => elem.item.id !== id);
+        localStorage.setItem("cart", JSON.stringify(cart));
+        getCart();
+    }
     return (
         <productContext.Provider
             value={{
@@ -310,6 +326,8 @@ const ProductContextProvider = ({ children }) => {
                 setFavourite,
                 changeFavouriteCount,
                 checkFavouriteInFavourites,
+                deleteFromFavourites,
+                deleteFromCart,
             }}
         >
             {children}

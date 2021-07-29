@@ -2,7 +2,6 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import "../components/Cards/Cards.css";
 import { productContext } from "../contexts/ProductContext";
-import heart from "./image/heart.png";
 const CardItem = (props) => {
     const {
         addProductToCart,
@@ -83,9 +82,6 @@ const CardItem = (props) => {
                                     addFavouriteToStorage(props.item)
                                 }
                                 style={{
-                                    // width: "27px",
-                                    // height: "27px",
-                                    // float: "rigth",
                                     marginTop: "15px",
                                     cursor: "pointer",
                                     color: checkFavouriteInFavourites(
