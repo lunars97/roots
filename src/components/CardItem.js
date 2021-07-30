@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "../components/Cards/Cards.css";
 import { productContext } from "../contexts/ProductContext";

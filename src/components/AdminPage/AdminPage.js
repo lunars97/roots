@@ -12,8 +12,8 @@ const AdminPage = (props) => {
         getProducts,
         productsData,
         deleteProduct,
-        productDetails,
-        getProductEdit,
+        // productDetails,
+        // getProductEdit,
         getProductDetails,
     } = useContext(productContext);
     const [img, setImg] = useState("");

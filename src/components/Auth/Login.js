@@ -21,8 +21,8 @@ const Login = ({ history }) => {
         [history]
     );
     const { currentUser } = useContext(AuthContext);
-    if (currentUser) {
-        return <Redirect to="/admin" />;
+    if (!currentUser) {
+        return <Redirect to="/login" />;
     }
     return (
         <div className="main__signup-container">
