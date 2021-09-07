@@ -7,7 +7,6 @@ const CommentList = () => {
 
     useEffect(() => {
         leaveComment();
-        console.log(leaveComment + "assssddff");
     }, []);
     return (
         <div>

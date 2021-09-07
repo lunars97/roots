@@ -116,6 +116,13 @@
     background-color: burlywood;
     border: none;
 }
+.empty_cart {
+    width: 100%;
+    height: 100vh;
+}
+.empty_cart > h3 {
+    text-align: center;
+}
 @media screen and (max-width: 1000px) {
     .cart_main {
         margin-top: 1rem;

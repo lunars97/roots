@@ -10,11 +10,11 @@ const Cart = () => {
     useEffect(() => {
         getCart(); //componentdidmount
     }, []);
-    console.log(cart.products);
+
     return (
         <>
-            <div className="cart">
-                {cart.products ? (
+            <div className={classes.cart}>
+                {cart?.products.length ? (
                     <div className={classes.cart_main}>
                         <div className={classes.cart_inner}>
                             <div className={classes.order_title}>
@@ -134,7 +134,9 @@ const Cart = () => {
                         </div>
                     </div>
                 ) : (
-                    <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+                    <div className={classes.empty_cart}>
+                        <h3>Корзина пустая</h3>
+                    </div>
                 )}
             </div>
             <Footer />

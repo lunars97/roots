@@ -5,10 +5,6 @@ import Footer from "../Footer/Footer";
 import { productContext } from "../../contexts/ProductContext";
 import CommentList from "./CommentList";
 const Community = () => {
-    // const [email, setEmail] = useState("");
-    // const [name, setName] = useState("");
-    // const [comment, setComment] = useState("");
-
     const [state, setState] = useState({
         name: "",
         email: "",
@@ -34,10 +30,6 @@ const Community = () => {
         postNewComment(state);
         console.log(state);
     }
-
-    // setEmail("");
-    // setName("");
-    // setComment("");
 
     return (
         <>
@@ -98,9 +90,11 @@ const Community = () => {
                     </div>
                 </div>
                 <div className="main_comment-list">
-                    <div className="secondary_list">
-                        <h3>Comments</h3>
-                    </div>
+                    {!!state.comment.length && (
+                        <div className="secondary_list">
+                            <h3>Comments</h3>
+                        </div>
+                    )}
                     <CommentList />
                 </div>
             </div>
