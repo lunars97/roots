@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Contact/Contact.css";
 import Footer from "../Footer/Footer";
 const Contact = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className="main_map">

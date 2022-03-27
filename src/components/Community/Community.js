@@ -5,6 +5,9 @@ import Footer from "../Footer/Footer";
 import { productContext } from "../../contexts/ProductContext";
 import CommentList from "./CommentList";
 const Community = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     const [state, setState] = useState({
         name: "",
         email: "",

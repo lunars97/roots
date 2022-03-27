@@ -5,7 +5,9 @@ import Footer from "../Footer/Footer";
 import style from "../CardDetails/CardDetails.module.css";
 const CardDetails = (props) => {
     const { getProductDetails, productDetails } = useContext(productContext);
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     useEffect(() => {
         getProductDetails(props.match.params.id);
     }, [props.match.params.id]);

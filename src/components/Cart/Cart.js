@@ -10,15 +10,17 @@ const Cart = () => {
     useEffect(() => {
         getCart(); //componentdidmount
     }, []);
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className={classes.cart}>
-                {cart?.products.length ? (
+                {cart?.products?.length ? (
                     <div className={classes.cart_main}>
                         <div className={classes.cart_inner}>
                             <div className={classes.order_title}>
-                                <p>Состав заказа</p>
+                                <p>Your Cart</p>
                             </div>
                             {cart.products.map((elem) => (
                                 <div
@@ -106,7 +108,7 @@ const Cart = () => {
                                             classes.right_column_card__inner__sum
                                         }
                                     >
-                                        Итого
+                                        Total
                                     </div>
                                     <div
                                         className={
@@ -135,7 +137,7 @@ const Cart = () => {
                     </div>
                 ) : (
                     <div className={classes.empty_cart}>
-                        <h3>Корзина пустая</h3>
+                        <h3>Cart is empty</h3>
                     </div>
                 )}
             </div>

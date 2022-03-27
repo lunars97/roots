@@ -91,7 +91,7 @@ const PaymentCard = () => {
                             />
 
                             <button onClick={clickSubmit} id="input-button">
-                                Оплатить
+                                Purchase
                             </button>
                         </div>
                     </form>

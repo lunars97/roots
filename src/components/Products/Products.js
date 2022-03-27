@@ -18,6 +18,9 @@ import { productContext } from "../../contexts/ProductContext";
 import CardItem from "../CardItem";
 
 export default function Products({ history }) {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     var settings = {
         adaptiveHeight: true,
         className: "slider variable-width",
@@ -223,7 +226,6 @@ export default function Products({ history }) {
                                         key={item.id}
                                         item={item}
                                         id={item.id}
-                                        // path="/services"
                                     />
                                 ))}
                             </ul>

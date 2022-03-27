@@ -87,7 +87,7 @@ const CardItem = (props) => {
                                     color: checkFavouriteInFavourites(
                                         props.item.id
                                     )
-                                        ? "black"
+                                        ? "red"
                                         : "green",
                                 }}
                             ></i>
